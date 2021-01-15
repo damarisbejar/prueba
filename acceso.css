@@ -1,0 +1,36 @@
+/*HEADER*/
+nav{
+  align-items: center;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul{
+  display: inherit;
+  margin: 0;
+}
+nav li{
+  display: inherit;
+  list-style: none;
+  padding-left: 1rem;
+}
+nav li a{
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #333;
+}
+nav li a:hover{
+  color: rgb(75, 236, 209);
+}
+
+
+/* FOOTER */
+footer{
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10vh;
+  font-weight: 700;
+  font-size: 1.5rem; }
